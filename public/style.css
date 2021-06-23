@@ -1,0 +1,106 @@
+#root{
+
+    font: 400;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(240, 244, 245);
+}
+
+.task-list{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header{
+    background-color: rgb(243, 105, 71);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px 23px;
+    margin: 20px auto;
+    border: 1px solid rgb(243, 105, 71);
+    border-radius: 20px;
+    outline: none;
+}
+
+.add-btn{
+    display: flex;
+    justify-content: center;
+    padding: 13px 40px;
+    margin: 20px auto;
+    border: 1px solid rgb(243, 105, 71);
+    color: rgb(243, 105, 71);
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.add-btn:hover{
+    background-color: rgb(243, 105, 71);
+    color: #fff;
+}
+
+.up-btn{
+    display: flex;
+    justify-content: center;
+    padding: 13px 40px;
+    margin: 20px;
+    border: 1px solid rgb(92, 255, 192);
+    color: rgb(3, 173, 108);
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+.up-btn:hover{
+    background-color: rgb(92, 255, 192);
+    color: #fff;
+}
+.dlt-btn{
+    display: flex;
+    justify-content: center;
+    padding: 13px 40px;
+    margin: 20px;
+    border: 1px solid rgb(255, 2, 2);
+    color: rgb(255, 2, 2);
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+.dlt-btn:hover{
+    background-color: rgb(255, 2, 2);
+    color: #fff;
+}
+.cmp-btn{
+    display: flex;
+    justify-content: center;
+    padding: 13px 40px;
+    margin: 20px;
+    border: 1px solid rgb(68, 255, 83);
+    color: rgb(3, 170, 17);
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+.cmp-btn:hover{
+    background-color: rgb(68, 255, 83);
+    color: #fff;
+}
+.list-container{
+    margin: auto auto;
+}
